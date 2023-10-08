@@ -1,9 +1,20 @@
 function Character({ character }) {
+
+    const cardStyle = {
+        backgroundColor: '#383f46',
+        color: 'white',
+        marginBottom: '40px',
+    };
+
     return (
-        <div className="text-center p-5">
+        <div className="text-center p-4 card card-body" style={cardStyle}>
             <h3>{character.name}</h3>
             <img className="img-fluid rounded-pill" src={character.image} alt={character.name} />
-            <p>{character.origin.name}</p>
+            <p>Univers: {character.origin.name}</p>
+            <p>Status: {character.status}</p>
+            <p>Specie: {character.species}</p>
+            <p>Gender: {character.gender}</p>
+            <p>Type: {character.type}</p>
         </div>
     )
 }
