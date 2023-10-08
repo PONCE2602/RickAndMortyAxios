@@ -1,5 +1,11 @@
 import React from 'react';
 
+const cardStyle = {
+    backgroundColor: '#383f46',
+    color: 'white',
+    marginBottom: '40px',
+};
+
 const equipo = [
     {
         imagen: "../IMG/XALLY.PNG",
@@ -44,12 +50,12 @@ function About() {
     return (
         <div>
             <h1>Acerca de</h1>
-            <h2>Materia Docente</h2>
-            <p>Nombre de la Materia Docente: [Nombre de la Materia]</p>
+            <h3>DESARROLLO DE APLICACIONES WEB</h3>
+            <h3>MSC. JAIME JESUS DELGADO MERAZ</h3>
 
             <h2>Integrantes del Equipo</h2>
             {equipo.map((integrante, index) => (
-                <div className="integrante" key={index}>
+                <div className="text-center p-4 card card-body" style={cardStyle} key={index}>
                     <img className='img-fluid' src={integrante.imagen} alt={`${integrante.nombre} ${integrante.apellido}`} />
                     <h3>{integrante.nombre} {integrante.apellido}</h3>
                     <p>Número de Control: {integrante.noControl}</p>
