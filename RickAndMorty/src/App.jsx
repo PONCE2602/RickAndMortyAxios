@@ -1,5 +1,5 @@
 import CharacterList from "./components/CharacterList";
-import './App.css'; // Importa un archivo CSS para definir estilos personalizados
+import './App.css';
 
 function App() {
   return (

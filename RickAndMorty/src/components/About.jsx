@@ -2,6 +2,13 @@ import React from 'react';
 
 const equipo = [
     {
+        imagen: "../IMG/XALLY.PNG",
+        nombre: 'XALLY',
+        apellido: 'MARTINEZ TREJO',
+        noControl: '20690080',
+        email: '20690080@tecvalles.mx',
+    },
+    {
         imagen: "../IMG/ALEXIS.PNG",
         nombre: 'ALEXIS',
         apellido: 'PONCE GONZALEZ',
@@ -9,12 +16,27 @@ const equipo = [
         email: '20690137@tecvalles.mx',
     },
     {
-        imagen: "../IMG",
+        imagen: "../IMG/ALEJANDRO.jpg",
         nombre: 'ALEJANDRO',
         apellido: 'OLVERA DELGADO',
-        noControl: 'Tu número de control',
+        noControl: '19690395',
+        email: '19690395@tecvalles.mx',
+    },
+    {
+        imagen: "../IMG/DANIEL.jpg",
+        nombre: 'DANIEL',
+        apellido: 'CERVANTES VILLANUEVA',
+        noControl: '20690146',
         email: '20690137@tecvalles.mx',
     },
+    {
+        imagen: "../IMG/ISRAEL.PNG",
+        nombre: 'ISRAEL',
+        apellido: 'ACUÑA VEGA',
+        noControl: '20690087',
+        email: '20690087@tecvalles.mx',
+    },
+
     // Agrega aquí los datos de otros integrantes del equipo
 ];
 
