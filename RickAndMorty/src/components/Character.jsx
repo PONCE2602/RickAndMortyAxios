@@ -7,7 +7,7 @@ function Character({ character }) {
     };
 
     return (
-        <div className="text-center p-4 card card-body border-secondary" style={cardStyle}>
+        <div className="text-center p-4 card card-body" style={cardStyle}>
             <h3>{character.name}</h3>
             <br />
             <img className="img-fluid rounded-pill border border-4 border-black" src={character.image} alt={character.name} />
