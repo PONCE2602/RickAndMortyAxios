@@ -7,9 +7,11 @@ function Character({ character }) {
     };
 
     return (
-        <div className="text-center p-4 card card-body" style={cardStyle}>
+        <div className="text-center p-4 card card-body border-secondary" style={cardStyle}>
             <h3>{character.name}</h3>
-            <img className="img-fluid rounded-pill" src={character.image} alt={character.name} />
+            <br />
+            <img className="img-fluid rounded-pill border border-4 border-black" src={character.image} alt={character.name} />
+            <br />
             <p>Univers: {character.origin.name}</p>
             <p>Status: {character.status}</p>
             <p>Specie: {character.species}</p>

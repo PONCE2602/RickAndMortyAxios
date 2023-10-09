@@ -62,7 +62,7 @@ function CharacterList() {
     return (
         <div className="container">
             <NavPage page={page} setPage={setPage} />
-
+            <br /> <br />
             {loading ? (
                 <h1>Loading ...</h1>
             ) : (
