@@ -10,9 +10,9 @@ function Character({ character }) {
         <div className="text-center p-4 card card-body" style={cardStyle}>
             <h3>{character.name}</h3>
             <br />
-            <img className="img-fluid rounded-pill border border-4 border-black" src={character.image} alt={character.name} />
+            <img className="img-fluid rounded-pill border border-3 border-black" src={character.image} alt={character.name} />
             <br />
-            <p>Univers: {character.origin.name}</p>
+            <p>Universe: {character.origin.name}</p>
             <p>Status: {character.status}</p>
             <p>Specie: {character.species}</p>
             <p>Gender: {character.gender}</p>
